@@ -1,4 +1,4 @@
-# Simple CRUD ReactJs
+# Simple CRU ReactJs
 
 This is a simple reactjs crud with api using [Json Placeholder](https://jsonplaceholder.typicode.com)
 
