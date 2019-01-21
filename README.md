@@ -31,7 +31,7 @@ npm start
 
 ## Authors
 
-* **Caca Wilda Andika**
+* **Caca Wilda Andika** [LinkedIn](https://linkedin.com/in/akikazuandika) [Telegram](https://t.me/akikazuandika)
 
 See also the list of [my project](https://github.com/akikazuandika)
 
