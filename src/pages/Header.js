@@ -55,7 +55,7 @@ export default class Header extends Component {
                       <Link to="#" className="btn btn-default btn-flat">Profile</Link>
                     </div>
                     <div className="pull-right">
-                      <Link to="#" className="btn btn-default btn-flat">Sign out</Link>
+                      <Link to="/logout" className="btn btn-default btn-flat">Sign out</Link>
                     </div>
                   </li>
                 </ul>
@@ -75,15 +75,6 @@ export default class Header extends Component {
               <Link to="#"><i className="fa fa-circle text-success"></i> Online</Link>
             </div>
           </div>
-          <form action="#" method="get" className="sidebar-form">
-            <div className="input-group">
-              <input type="text" name="q" className="form-control" placeholder="Search..." />
-              <span className="input-group-btn">
-                    <button type="submit" name="search" id="search-btn" className="btn btn-flat"><i className="fa fa-search"></i>
-                    </button>
-                  </span>
-            </div>
-          </form>
           <ul className="sidebar-menu" data-widget="tree">
             <li className="header">MAIN NAVIGATION</li>
             <li className="active treeview">

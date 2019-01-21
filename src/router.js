@@ -7,6 +7,7 @@ import Logout from './pages/Logout';
 import Footer from './pages/Footer';
 
 function PrivateRoute({component : Component, ...rest}){
+  { document.body.classList.add('skin-blue'); document.body.classList.remove('login-page')}
   return (
     <Route
       {...rest}
@@ -21,7 +22,6 @@ function PrivateRoute({component : Component, ...rest}){
 
 export default class Router extends Component {
   render() {
-    { document.body.classList.add('skin-blue'); document.body.classList.remove('login-page')}
     return (
       <BrowserRouter>
         <Switch>

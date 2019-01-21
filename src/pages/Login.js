@@ -26,7 +26,7 @@ export default class Login extends Component {
     if (username === "akikazu" && password === "andika") {
         localStorage.setItem("username", username)
         alert("You're logged in")
-        this.props.history.push("/")
+        window.location.href="/"
     }else{
         alert("Password is wrong")
     }
