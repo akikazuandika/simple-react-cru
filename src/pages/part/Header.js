@@ -12,7 +12,7 @@ export default class Header extends Component {
     return (
       <div>
       <header className="main-header">
-        <Link to="index2.html" className="logo">
+        <Link to="/" className="logo">
           <span className="logo-mini"><b>A</b>LT</span>
           <span className="logo-lg"><b>Admin</b>LTE</span>
         </Link>
@@ -85,9 +85,9 @@ export default class Header extends Component {
                 </span>
               </Link>
             </li>
-            <li><Link to="#"><i className="fa fa-circle-o text-red"></i> <span>Important</span></Link></li>
-            <li><Link to="#"><i className="fa fa-circle-o text-yellow"></i> <span>Warning</span></Link></li>
-            <li><Link to="#"><i className="fa fa-circle-o text-aqua"></i> <span>Information</span></Link></li>
+            <li><Link to="/create"><i className="fa fa-dashboard"></i> <span>Create</span></Link></li>
+            <li><Link to="#"><i className="fa fa-dashboard"></i> <span>Warning</span></Link></li>
+            <li><Link to="/logout"><i className="fa fa-sign-out"></i> <span>Logout</span></Link></li>
           </ul>
         </section>
       </aside>

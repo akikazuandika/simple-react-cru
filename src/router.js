@@ -5,6 +5,7 @@ import Header from './pages/part/Header';
 import Login from './pages/Login';
 import Logout from './pages/Logout';
 import Footer from './pages/part/Footer';
+import Create from './pages/Create';
 
 function PrivateRoute({component : Component, ...rest}){
   { document.body.classList.add('skin-blue'); document.body.classList.remove('login-page')}
@@ -28,6 +29,7 @@ export default class Router extends Component {
             <Route exact path="/login" component={Login} />
             <Route exact path="/logout"  component={Logout} />
             <PrivateRoute exact path="/" component={Home}/>
+            <PrivateRoute exact path="/create" component={Create}/>
         </Switch>
     </BrowserRouter>
     );
