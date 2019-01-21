@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
 import { BrowserRouter, Switch, Route, Redirect } from "react-router-dom";
-import Home from './Home';
-import Header from './pages/Header';
+import Home from './pages/Home';
+import Header from './pages/part/Header';
 import Login from './pages/Login';
 import Logout from './pages/Logout';
-import Footer from './pages/Footer';
+import Footer from './pages/part/Footer';
 
 function PrivateRoute({component : Component, ...rest}){
   { document.body.classList.add('skin-blue'); document.body.classList.remove('login-page')}
